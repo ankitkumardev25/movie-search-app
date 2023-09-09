@@ -79,10 +79,13 @@ input[type="submit"] {
   background-color: red;
       color: black;
       font-weight: bold;
-  border: 1px solid black;
-  width: 100px;
+      border: none;
+      border-radius: 10px;
+  width: 120px;
   margin-left: 5px;
   cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
 }
 
 input[type="submit"]:hover {
@@ -92,6 +95,7 @@ input[type="submit"]:hover {
 
 .search > input[type="text"] {
   width: 40%;
+  flex-grow: 1;
   min-width: 170px;
 }
 
