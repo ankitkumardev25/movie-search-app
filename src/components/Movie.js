@@ -1,5 +1,5 @@
 const DEFAULT_PLACEHOLDER_IMAGE =
-  "https://www.subscription.co.uk/time/europe/Solo/Content/Images/noCover.gif";
+  "https://upload.wikimedia.org/wikipedia/commons/f/fc/No_picture_available.png";
 
 const Movie = ({ movie }) => {
   const poster =

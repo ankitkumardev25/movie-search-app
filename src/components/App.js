@@ -4,8 +4,8 @@ import Header from "./Header";
 import Movie from "./Movie";
 import Search from "./Search";
 
-const MOVIE_API_URL = "https://www.omdbapi.com/?s=man&apikey=4a3b711b";
-
+const MOVIE_API_URL = "https://www.omdbapi.com/?s=man&apikey=4a3b711b"; 
+// const MOVIE_API_URL = "http://www.omdbapi.com/?s=tom&apikey=e410adbc";
 const initialState = {
   loading: true,
   movies: [],
@@ -77,9 +77,9 @@ const App = () => {
 
   return (
     <div className="App">
-      <Header text="StreamBerry" />
+      <Header text="StreamBerry 🍓" />
       <Search search={search} />
-      <p className="App-intro">Sharing a few popular movies</p>
+      <p className="App-intro">Recommended For You ❤️</p>
       <div className="movies">
         {loading && !errorMessage ? (
           <span>loading... </span>
