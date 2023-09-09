@@ -74,13 +74,11 @@
 
 input[type="submit"] {
   padding: 10px;
-  /* background-color: transparent;
-  color: black; */
   background-color: red;
-      color: black;
-      font-weight: bold;
-      border: none;
-      border-radius: 10px;
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 0 10px 10px 0;
   width: 120px;
   margin-left: 5px;
   cursor: pointer;
@@ -89,14 +87,19 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #282c34;
-  color: antiquewhite;
+  background-color: black;
+  color: red;
 }
 
 .search > input[type="text"] {
   width: 40%;
-  flex-grow: 1;
+  flex-grow: .5;
   min-width: 170px;
+  border: 2px solid;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px 0 0 10px;
+  outline: none;
 }
 
 @media screen and (min-width: 694px) and (max-width: 915px) {
