@@ -3,17 +3,17 @@
 }
 
 .App-header {
-  background-color: #d327d3;
+  background-color:black;
   height: 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: rgb(0, 2, 0);
+  color: red;
   padding: 20px;
   cursor: pointer;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Netflix Sans;
 }
 
 .spinner {
