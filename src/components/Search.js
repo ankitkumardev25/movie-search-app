@@ -19,6 +19,7 @@ const Search = (props) => {
   return (
     <form className="search">
       <input
+        placeholder="Search movie title"
         value={searchValue}
         onChange={handleSearchInputChanges}
         type="text"
